@@ -26,3 +26,8 @@ function My_First_Function() { //defining a function and nameing isolation
     document.getElementById("Green_Text").innerHTML = result; //putting the value of the result into HTML element with "Green_Text"id
 
 }
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date(); //works to show date and time outside of button when clicked
+
+}
