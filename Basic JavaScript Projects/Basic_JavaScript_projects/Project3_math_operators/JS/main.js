@@ -45,3 +45,14 @@ window.alert(Math.random() * 100); //generates a pop up random number from 1-100
 
 
 document.getElementById("round").innerHTML = Math.round(25.654); //rounds off the number of 25.654
+
+function my_Dictionary() {
+    var Bike = {
+        Brand: "Niner",
+        Color: "Blue",
+        Model: "RLT",
+        Gears: 11,
+        Sound: "whooshzzzzzee!"
+    };
+    document.getElementById("Dictionary").innerHTML = Bike.Sound;
+}
