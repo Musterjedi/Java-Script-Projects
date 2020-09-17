@@ -9,3 +9,6 @@ function my_Dictionary() {
     delete Bike.Sound; //deleted item
     document.getElementById("Dictionary").innerHTML = Bike.Sound;
 }
+
+document.write(typeof 3);
+document.write(typeof "word");
