@@ -1,0 +1,53 @@
+<!-- template/html/css -->
+---------
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>B3 | NAME</title>
+		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+	
+		
+	
+	</body>
+</html>
+
+__________________
+web link template
+------------------
+<a href="link address here">displayed title here</a>
+__________________
+the Assignment link
+------------------
+C:/Users/jbhoo/OneDrive/Desktop/htmlDoc/assignment1.html
+________________________________________________________________
+container and box template
+------------------------------
+< <div>      
+            <h1>Basic CSS Demo</h1>
+     </div>
+
+     <div class="container">
+        <div class="squares">
+            <p>Box 1</p>
+        </div>
+
+         <div class="squares">
+            <p>Box 2</p>
+        </div>
+
+        <div class="squares">
+                <p>Box 3</p>
+            </div>
+
+        <div class="squares">
+                <p>Box 4</p>
+            </div>  
+        </div>
+_______________________________________________________________________
+linked css code
+-------------------------------
+<link rel="stylesheet" href="./css/">
