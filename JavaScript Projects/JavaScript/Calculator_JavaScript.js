@@ -58,6 +58,14 @@ const Perform_Calculations = {
     '-': (First_Operand, Second_Operand) => First_Operand - Second_Operand,
     '=': (First_Operand, Second_Operand) => Second_Operand
 };
+
+function Calculator_Reset() {
+    Calculator.Display_Value = '0';
+    Calculator.First_Operand = null;
+    Calculator.Wait_Second_Operand = false;
+    Calculator.operator = null;
+}
+
 //this function updates the screen with the contents of the display value
 function Update_Display() {
     const display = document.querySelector('.calculator-screen');
